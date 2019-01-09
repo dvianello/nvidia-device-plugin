@@ -34,16 +34,16 @@ CACHE_DIR=/nvidia-device-plugin
 declare -A class_to_driver_file
 class_to_driver_file=( \
     ["g2"]="http://us.download.nvidia.com/XFree86/Linux-x86_64/367.124/NVIDIA-Linux-x86_64-367.124.run" \
-    ["g3"]="http://us.download.nvidia.com/tesla/390.46/NVIDIA-Linux-x86_64-390.46.run" \
-    ["p2"]="http://us.download.nvidia.com/tesla/390.46/NVIDIA-Linux-x86_64-390.46.run" \
-    ["p3"]="http://us.download.nvidia.com/tesla/390.46/NVIDIA-Linux-x86_64-390.46.run" \
+    ["g3"]="http://us.download.nvidia.com/tesla/396.44/NVIDIA-Linux-x86_64-396.44.run" \
+    ["p2"]="http://us.download.nvidia.com/tesla/396.44/NVIDIA-Linux-x86_64-396.44.run" \
+    ["p3"]="http://us.download.nvidia.com/tesla/396.44/NVIDIA-Linux-x86_64-396.44.run" \
 )
 declare -A class_to_driver_checksum
 class_to_driver_checksum=( \
     ["g2"]="77f37939efeea4b6505842bed50445971992e303" \
-    ["g3"]="57569ecb6f6d839ecc77fa10a2c573cc069990cc" \
-    ["p2"]="57569ecb6f6d839ecc77fa10a2c573cc069990cc" \
-    ["p3"]="57569ecb6f6d839ecc77fa10a2c573cc069990cc" \
+    ["g3"]="4f7db800fa36d369ac19b830d3d780f94c547ed6" \
+    ["p2"]="4f7db800fa36d369ac19b830d3d780f94c547ed6" \
+    ["p3"]="4f7db800fa36d369ac19b830d3d780f94c547ed6" \
 )
 
 # CUDA Files that need to be installed ~1.4GB
