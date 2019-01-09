@@ -1,7 +1,11 @@
 # NVIDIA GPU Driver and DevicePlugin Installation
 
-## Summary
+### Note
+This repository is a copy-paste exercise of the [nvidia-device-plugin](https://github.com/kubernetes/kops/tree/master/hooks/nvidia-device-plugin/image) hook folder in the official kops repository with a bumped up version of the nvidia drivers.
 
+The original README from the repository is below.
+
+## Summary
 This kops hook container may be used to enable nodes with GPUs to work with
 Kubernetes.  It is targeted specifically for AWS GPU [instance
 types](https://aws.amazon.com/ec2/instance-types/).
