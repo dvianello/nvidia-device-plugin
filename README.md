@@ -99,7 +99,7 @@ spec:
   image: kope.io/k8s-1.10-debian-stretch-amd64-hvm-ebs-2018-05-27
   hooks:
   - execContainer:
-      image: dcwangmit01/nvidia-device-plugin:0.1.0
+      image: vianellod/nvidia-device-plugin-hook:396.44
 
 ### The settings below are only necessary for kubernetes <= 1.11.0, where
 ###   deviceplugins are not enabled by default.
