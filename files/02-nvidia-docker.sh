@@ -69,7 +69,7 @@ apt-get -y update
 apt-get install -y --allow-downgrades -o Dpkg::Options::="--force-confold" \
   nvidia-docker2 \
   nvidia-container-runtime \
-  docker-ce=5:18.09.0~3-0~debian-stretch
+  docker-ce=5:18.09.1~3-0~debian-stretch
 
 # Disable a few things that break docker-ce/gpu support upon reboot:
 #  Upon boot, the kops-configuration.service systemd unit sets up and starts
