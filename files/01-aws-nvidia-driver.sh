@@ -214,5 +214,5 @@ fi
 # Restart Kubelet
 #   Only necessary in the case of Accelerators (not Device Plugins)
 
-echo "Restarting Kubelet"
-systemctl restart kubelet.service
+#echo "Restarting Kubelet"
+#systemctl restart kubelet.service
